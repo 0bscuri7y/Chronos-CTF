@@ -86,3 +86,4 @@ xdg-open extracted.jpg
 
 This writeup showcases the process of uncovering hidden data in a file using forensic techniques and will serve as a helpful guide for similar challenges in the future.
 
+![image](https://github.com/user-attachments/assets/d7a7225f-34be-4154-8370-a4312a43fc18)
