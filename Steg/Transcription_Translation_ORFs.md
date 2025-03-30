@@ -1,11 +1,12 @@
-## Transcription, Translation, ORFs 
+# Transcription, Translation, ORFs 
 
 Provided image:
-![image](https://github.com/user-attachments/assets/08e55297-3852-4beb-82e0-327b315d5978)
+
+![Original image](images/original.webp)
 
 
 
-# Description:
+## Description:
 
 ```
 I accidentally sent the data to the wrong Forensics Department! They say they found data, but we can’t really make anything out of it. Can you?“
@@ -15,15 +16,17 @@ Hint: Think out of the box
 Note: Report the flag in the format SAIC{flag}
 ``` 
 
-We've been provided with a image, after analysing a bit i found out that it's probably nucleotides (the challenge description said think out of box also the title is transcription, translation - Bio student BTW ^^)
+> We've been provided with a image, after analysing a bit i found out that it's probably nucleotides (the challenge description said think out of box also the title is transcription, translation - Bio student BTW ^^)
 
-So after knowing that this is nucleotides I had a good conversation with Claude, Deepseek and ChatGPT and came to conclusion that there are 4 colours for different amino acids in DNA:
+> So after knowing that this is nucleotides I had a good conversation with Claude, Deepseek and ChatGPT and came to conclusion that there are 4 colours for different amino acids in DNA:  
+> - Blue: C  
+> - Red: T  
+> - Yellow: G  
+> - Green: A   
 
-Blue: C Red:T, Yellow: G , Green: A 
+> Based on this I created a script with help of teammate:
 
-Based on this I created a script with help of teammate:
-
-```
+```python
 import cv2
 import numpy as np
 
@@ -107,7 +110,7 @@ We use `https://web.expasy.org/translate/` to translate.
 
 And Now after translating and analyzing I got this! 
 
-![image](https://github.com/user-attachments/assets/1dda3cf9-0458-468b-8c78-cd7147d70787)
+![Expay Translate](images/expay_translate.webp)
 
 
 `THE-PASS-IS--METAPHYSIC-LIGHTYEARS`
