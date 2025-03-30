@@ -11,17 +11,7 @@
 
 > *"Mr. Bing is testing your ML and automation skills! Fetch the given image, detect Chandler’s face using a face detection model and determine which quadrants contain his face."*
 
-The challenge displayed an image containing **Chandler Bing’s** face in one or more quadrants. The task was to determine which **quadrants** (out of four) contained his face and input them in the format `[1, 3]`.
-
-Quadrant layout:
-
-```yaml
-+---------+---------+  
-|    1    |    2    |   
-+---------+---------+  
-|    1    |    2    |  
-+---------+---------+  
-```
+> The challenge displayed an image containing **Chandler Bing’s** face in one or more quadrants. The task was to determine which **quadrants** (out of four) contained his face and input them in the format `[1, 3]`.
 
 ---
 
@@ -33,17 +23,35 @@ Instead of using machine learning or automation, the challenge was completed thr
 
 ## 📝 Step-by-step Approach:
 
-1. **Understood Quadrant Mapping**  
-   Interpreted the image layout and how coordinates relate to quadrants.
+### 1. Decoding Quadrant System:
 
-2. **Manually Observed Each Image**  
-   Chandler’s face was located in 1–4 regions of each image. Used pattern recognition to visually verify his presence.
+The quadrant layout was not explicitly mentioned in the interface, so it had to be deduced manually.
 
-3. **Entered Answer Manually**  
-   Submitted the identified quadrants as per the expected format, e.g. `[2, 3]`.
+### 2. Manually Observed Each Image:
 
-4. **Repeated for 52 Rounds**  
-   Completed the process 52 times until the final flag was revealed.
+By observing changes in the URL/page structure and comparing the position of Chandler’s face in various images, the following mapping was derived:
+- Top-left → Quadrant 1
+- Top-right → Quadrant 2
+- Bottom-right → Quadrant 3
+- Bottom-left → Quadrant 4
+
+This reference grid was applied consistently throughout the challenge.
+
+```yaml
++---------+---------+  
+|    1    |    2    |   
++---------+---------+  
+|    1    |    2    |  
++---------+---------+  
+```
+
+### 3. Entered Answer Manually  
+   
+Submitted the identified quadrants as per the expected format, e.g. `[2, 3]`.
+
+### 4. Repeated for 52 Rounds  
+   
+Completed the process 52 times until the final flag was revealed.
 
 ---
 
