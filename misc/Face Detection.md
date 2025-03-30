@@ -59,6 +59,8 @@ In this image, Chandler appears in **all four quadrants**, so the correct input 
 [1, 2, 3, 4]
 ```
 
+Flag after doing for 52 times:
+
 ![Flag](images/face_detection_flag.webp)
 
 ---
