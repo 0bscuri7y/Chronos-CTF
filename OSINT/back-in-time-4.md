@@ -10,7 +10,7 @@ So after running the command `sherlock SpideyPavitr`:
 
 I got several URLs and checked them and found the flag on `pastebin.com/u/SpideyPavitr`
 
-![image](https://github.com/user-attachments/assets/7535c48b-85f1-47bb-abbf-bfc6d99f5c7a)
+![Sherlock](images/back_in_time_4_sherlock.webp)
 
 
 ```
@@ -18,4 +18,4 @@ Dude,you are good at social hunting!
 saic{pu61ic_p4st3_pr1v4t3_l055}
 ```
 
-![image](https://github.com/user-attachments/assets/1bbfbd3f-1bc7-4f33-9b9b-1831b880a3a4)
+![Paste bin](images/back_in_time_4_flag.webp)
