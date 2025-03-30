@@ -10,7 +10,7 @@ After searching a bit you will see that there's a latest screenshot of website a
 
 After that I copied all username of the old website and pasted in notepad then tallied each username with current website member and found out that there's Pavitra Prabhakar which is standing out. 
 
-![image](https://github.com/user-attachments/assets/d1aebc12-b494-4c9a-8d1f-bcd61482ebf8)
+![Way Back](images/back_in_time_2.webp)
 
 
 Then go to his GitHub and there we found flag in the readme.md 
