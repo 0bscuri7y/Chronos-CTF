@@ -13,7 +13,7 @@ The challenge provided a Linux executable that was designed to crash due to a de
     Switching to a hex editor, I examined the binary file for any anomalies. Scrolling through the hexadecimal data revealed fragments of what appears to be a flag.
 
 
-![Hexedit Preview](../assets/neko.png)
+![Hexedit Preview](images/neko.png)
 
 ### Conclusion
 The solution hinged on careful static file analysis rather than conventional dynamic execution. By leveraging a hex editor, the flag was successfully reconstructed from dispersed data segments within the executable.
