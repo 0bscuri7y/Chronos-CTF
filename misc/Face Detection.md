@@ -41,7 +41,7 @@ This reference grid was applied consistently throughout the challenge.
 +---------+---------+  
 |    1    |    2    |   
 +---------+---------+  
-|    1    |    2    |  
+|    4    |    3    |  
 +---------+---------+  
 ```
 
