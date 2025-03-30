@@ -17,13 +17,13 @@
 
 Opening the image in a viewer revealed only a partial render — we could faintly see the top of what looked like flag text.
 
-![Partial Image Render](images/size%20matter%201.png)
+![Partial Image Render](images/Size_matter_1.webp)
 
 This confirmed our suspicion: the image data exists, but something is causing it to be cropped. We moved to inspect the file in a hex editor.
 
 Using 010 Editor with the PNG binary template loaded, we analyzed the internal structure of the PNG. We observed the following in the IHDR (image header) chunk:
 
-![Hex Editor Showing IHDR Height = 137](images/size%20matter%202.png)
+![Hex Editor Showing IHDR Height = 137](images/Size_matter_2.webp)
 Width was correct.
 
 Height was set to 137, which seemed unusually small for the amount of data in the file.
@@ -49,7 +49,7 @@ We saved the edited image as m100_fixed.png, then opened it in a regular image v
 ### Step 3: Full Flag Revealed
 Success! The full image rendered and revealed the complete flag at the bottom of the image.
 
-![Final Image Revealing Full Flag](images/size%20matter%203.png)
+![Final Image Revealing Full Flag](images/Size_matter_3.webp)
 
 ---
 
