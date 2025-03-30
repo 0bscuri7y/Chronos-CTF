@@ -17,7 +17,8 @@ The hint mentioned:
 
 Initially, we attempted to identify the hash via Hashes.com. It confirmed the format as Yescrypt, noted by the $y$ prefix.
 
-![image](https://github.com/user-attachments/assets/856343d4-308c-43ae-ac15-e94418f0e1f0)
+![Hash Identification Screenshot](images/no_hachcat.webp)
+
 
 Since Hashcat doesn’t support this format, we pivoted to using John the Ripper, which supports cracking Yescrypt hashes under the --format=crypt option.
 
